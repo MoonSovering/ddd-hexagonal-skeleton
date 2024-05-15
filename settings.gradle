@@ -1,0 +1,12 @@
+rootProject.name = 'urranrell'
+
+include ':app-main'
+include ':model'
+include ':usecases'
+include ':mongo-respository'
+
+project(':app-main').projectDir = file('./src/applications/app-main')
+project(':model').projectDir = file('./src/domain/model')
+project(':usecases').projectDir = file('./src/domain/usecases')
+project(':mongo-respository').projectDir = file('./src/infrastructure/driven-adapters/mongo-repository')
+
