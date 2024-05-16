@@ -1,9 +1,5 @@
-package com.arch.gateway.generic;
+package com.arch.generic;
 
-
-import com.arch.generic.Command;
-import com.arch.generic.DomainEvent;
-import com.arch.generic.Identity;
 
 import java.util.List;
 
